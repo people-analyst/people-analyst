@@ -12,7 +12,7 @@ PetSmart, and Google.
 
 ### What I'm building
 
-- **[People Analytics Toolbox](https://peopleanalyticstoolbox.com)** — 46 live, independently-versioned
+- **[People Analytics Toolbox](https://peopleanalyticstoolbox.com)** — 45+ live, independently-versioned
   analytical services over HTTP and MCP. One deploy, typed contracts, adopt one at a time.
 - **[CanonicAI](https://canonicai.com)** — corpus in, canonical data out. Books and papers become
   queryable datasets with provenance on every claim.
