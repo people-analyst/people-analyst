@@ -1,0 +1,5 @@
+{
+  "kitVersion": "1.2.0",
+  "note": "Artifact integrity contracts. AGE (max_age_hours + embedded generated_at) and DRIFT (inputs[] fingerprints) are independent — declare either or both. max_age_hours: null means FROZEN BY DESIGN. Neither declared = UNTRACKED, which is reported and is not a pass.",
+  "artifacts": []
+}
