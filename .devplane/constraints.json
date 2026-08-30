@@ -1,0 +1,14 @@
+{
+  "updated": "2026-08-29",
+  "owner": "Mike West (sole owner/approver; single-maintainer repo)",
+  "spend_pause": null,
+  "deferred_scope": [
+    "check-artifacts.mjs (scripts/kit) has no <name>.selftest.mjs and has never been proven capable of failing (SP-4 commit 648a693, 2026-08-29). Do not treat its 'nothing stale' output as a verified pass until a selftest exists."
+  ],
+  "sequence": [
+    "This repo is a GitHub profile README and a portfolio front-door, deliberately kept minimal ('not much, and that's deliberate' — README) — the actual products live in their own repos and deploy to their own domains. Do not grow this repo into a build surface for product work; that work belongs in the owning repo.",
+    "dist/ is unrelated gitignored build output (DP-623, commit f889773) — not a public site surface for this repo. Do not treat its presence as evidence of a deployed site here."
+  ],
+  "notes": "This file was previously absent (25 of 29 repos had none per DP-661/F-038) — an absent file reads as unconstrained rather than unmeasured, which is the gap that produced the 2026-08-02 incident. This repo genuinely carries very little standing constraint: no spend pause is or has been in effect, no product roadmap lives here, and the one open item (deferred_scope above) is a measurement-integrity gap surfaced by this repo's own SP-4 checks, not a scope or budget decision. check-feedback-signal and check-citation-cards (scripts/kit) also flagged live defects in the README itself (unattributed outbound links; two claims with no declared falsifier in .claim-ledger.json) — those are open findings to fix in content, not standing constraints on future work, so they are not listed above. Re-run scripts/kit/*.mjs to confirm current status before treating any of this as stale.",
+  "kill_triggers": []
+}
