@@ -1,0 +1,74 @@
+{
+  "repo": "people-analyst",
+  "updated": "2026-09-08",
+  "goal": "No freestanding AI-inbound win of its own \u2014 people-analyst is Mike West's personal bio/front-door repo (self-declared 'profile front-door by design, not a build surface'); the live public front door is peopleanalyst.com, served by a different repo.",
+  "play": "hygiene",
+  "queryMap": null,
+  "messageHouse": null,
+  "phases": [
+    {
+      "id": "P0",
+      "state": "not-started",
+      "evidence": "No query map or message house \u2014 a bio/profile source repo, not itself a content destination. DP-727 line-1 disposition only."
+    },
+    {
+      "id": "P1",
+      "state": "not-started",
+      "evidence": ""
+    },
+    {
+      "id": "P2",
+      "state": "not-started",
+      "evidence": ""
+    },
+    {
+      "id": "P3",
+      "state": "not-started",
+      "evidence": ""
+    },
+    {
+      "id": "P4",
+      "state": "not-started",
+      "evidence": ""
+    },
+    {
+      "id": "P5",
+      "state": "not-started",
+      "evidence": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "people-analyst",
+      "name": "Mike West profile",
+      "purpose": "Hold Mike West's personal bio/profile copy that peopleanalyst.com and related front doors draw from, pointing to the live portfolio products rather than serving traffic itself.",
+      "status": "support",
+      "userJobs": [
+        "Provide canonical bio copy for Mike West across portfolio front doors"
+      ],
+      "aiRoles": [
+        "knowledge-source"
+      ],
+      "integrationSurfaces": [],
+      "artifacts": [],
+      "reciprocalDesign": {
+        "aiToApplication": "No AI-callable path exists at line 1 for this disposition; see 'what would create a surface' above for what would need to ship first.",
+        "applicationToAi": "N/A at line 1 \u2014 no integration surface is live for an AI agent to receive structured output from yet.",
+        "humanToSystem": "Mike (owner) reviews and can promote this disposition to candidate once a production surface exists; no AI write path exists here today.",
+        "systemToHuman": "This manifest records a DP-727 line-1 disposition (status, reason, and what would create a surface) so the repo is inventoried without inventing readiness it does not have."
+      },
+      "evidence": [
+        "DP-727 disposition (2026-09-08): no package.json at root (not a runnable app); a committed dist/index.cjs build artifact exists but .gitignore now excludes dist/ (commit f889773, 'ignore dist/... so generated dirt cannot starve the primary'); no vercel.json/.vercel, no site-library.json entry. Commit b9afb7b (2026-08-29, this repo's own .devplane/constraints.json) states explicitly: 'it's a profile front-door by design, not a build surface.' README points to peopleanalyst.com as 'the front door to all of it' \u2014 a separate repo."
+      ]
+    }
+  ],
+  "distributionReadiness": {
+    "candidateStatus": "support",
+    "declaredAt": "2026-09-08",
+    "declaredBy": "bicycle-guide lead session 2026-09-08, pending owner acknowledgement",
+    "reciprocal": {
+      "nextExperiment": "This repo would only gain an AI-inbound surface if its bio content were deployed directly rather than syndicated into peopleanalyst.com/other front doors \u2014 no such deployment is planned per its own stated constraints."
+    }
+  },
+  "mechanisms": {}
+}
