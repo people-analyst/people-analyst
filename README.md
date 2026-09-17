@@ -7,23 +7,27 @@ Founder of **PeopleAnalyst** (2012). Author of *People Analytics for Dummies* (W
 the first mainstream book on the field. Earlier: stood up people analytics functions at Merck,
 PetSmart, and Google.
 
-**What's here:** not much, and that's deliberate — the portfolio is private. The work lives at
-**[peopleanalyst.com](https://peopleanalyst.com)**, which is the front door to all of it.
+**What's here:** the public portfolio summary lives at
+**[github.com/people-analyst/portfolio](https://github.com/people-analyst/portfolio)**, and
+**[peopleanalyst.com](https://peopleanalyst.com)** is the front door.
 
 ### What I'm building
 
-- **[People Analytics Toolbox](https://peopleanalyticstoolbox.com)** — 45+ live, independently-versioned
-  analytical services over HTTP and MCP. One deploy, typed contracts, adopt one at a time.
-- **[CanonicAI](https://canonicai.com)** — corpus in, canonical data out. Books and papers become
-  queryable datasets with provenance on every claim.
-- **[Principia](https://peopleprincipia.com)** — organizational measurement as a queryable evidence
-  layer: constructs, instruments, reliability and validity evidence.
-- **[Performix](https://performix.app)** — finds the one condition binding a team's performance.
-  Real psychometrics; AI is a consumer of the measurement, not the measurement.
-- **[Bicycle Guide](https://bicycle.guide)** — guides built from a field's actual canon, cited per
-  claim, honest about where the experts disagree.
-- **[Vela](https://vela.study)**, **[Penwright](https://penwright.ink)**,
-  **[Namesake](https://namesake.baby)**, **[DevPlane](https://devplane.dev)**.
+- **Toolbox line** — **[People Analytics Toolbox](https://peopleanalyticstoolbox.com)** and
+  **[GTM Toolbox](https://gtmtoolbox.io)**.
+- **[CanonicAI](https://canonicai.com)** — corpus in, canonical data out.
+- **[Principia](https://peopleprincipia.com)** — organizational measurement as a queryable evidence layer.
+- **[Performix](https://performix.app)** — psychometrics-native performance measurement.
+- **Bicycle Guide platform** — **[bicycle.guide](https://bicycle.guide)** plus specialist
+  **`*.guide`** fronts.
+- **Compensation professional cluster** —
+  **[compensationprofessional.com](https://compensationprofessional.com)**,
+  **[compensationtoolbox.com](https://compensationtoolbox.com)**,
+  **[anycomp.ai](https://anycomp.ai)**, and **[compdata.ai](https://compdata.ai)**.
+- **Publications** — **[Vela](https://vela.study)**, **[Penwright](https://penwright.ink)**,
+  **[The Family Almanac](https://thefamilyalmanac.com)**, and
+  **[Namesake](https://namesake.baby)**.
+- **[DevPlane](https://devplane.dev)**.
 
 ### The through-line
 
