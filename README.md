@@ -67,7 +67,7 @@ Counts kept as measured in `v2.31` (as of 2026-09-04): `32 live / 19 archived` o
 
 I build with an agent fleet, not a single model: tool-using agents over MCP, retrieval-augmented synthesis with source citation, and multi-model orchestration with fallback and observability. The operating idea is consistent across products: analytical capabilities should ship as versioned services that people and agents can call over the same contracts (HTTP + MCP), and durable records beat chat transcripts when decisions matter.
 
-Verification is part of authorship, not post-processing. The method stays behavioral science + statistics + business strategy + analytic systems, ordered from theoretical model to data workflow model to system model to statistical/ML models. If the claim is not measured, it is still a draft. Unattended heavy work runs on the `devplane-runner` box while the laptop stays the human cockpit for judgment, review, and final decisions; runner policy is explicit: no cloud agents, branch commits by explicit pathspec, and one batched push per repo per day.
+Verification is part of authorship, not post-processing. The method stays behavioral science + statistics + business strategy + analytic systems, ordered from theoretical model to data workflow model to system model to statistical/ML models. If the claim is not measured, it is still a draft. Unattended and heavy work runs on a dedicated cloud runner; the laptop stays the human cockpit for judgment, review, and final decisions.
 
 ## Background
 
