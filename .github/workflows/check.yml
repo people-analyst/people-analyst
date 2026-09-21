@@ -1,0 +1,34 @@
+# CI floor — the first measurement this repo has ever had.
+#
+# devplane's portfolio scan (2026-09-21) found this repo with no workflow runs on its default
+# branch and no declared ci_exemption. No package.json — plain Node scripts, no install needed.
+#
+# Only check-artifacts.mjs is wired here. The other 6 scripts under scripts/kit/ were checked
+# and found genuinely red or CANNOT-MEASURE right now for real, pre-existing reasons unrelated
+# to this floor (unfalsifiable claim strings in README.md per check-citation-cards.mjs,
+# unverified $-amount commerce signals per check-commerce-fulfillment.mjs, unattributed
+# marketing links per check-feedback-signal.mjs, a gate-quality finding per
+# check-gate-conflicts.mjs, a stale README section per check-one-source-of-truth.mjs, and no
+# public/ directory at all for check-sitemaps.mjs to check against) — wiring them as hard gates
+# now would immediately red-flag every future push for content gaps this floor did not create.
+# See devplane docs/OUTSTANDING-AND-HANDOFF.md for the deferred-finding writeup.
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Artifact freshness
+        run: node scripts/kit/check-artifacts.mjs
